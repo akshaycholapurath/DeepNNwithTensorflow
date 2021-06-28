@@ -193,7 +193,6 @@ def compare_historys(original_history, new_history, initial_epochs=5):
       new_history: History object from continued model training (after original_history)
       initial_epochs: Number of epochs in original_history (new_history plot starts from here) 
     """
-    
     # Get original history measurements
     acc = original_history.history["accuracy"]
     loss = original_history.history["loss"]
