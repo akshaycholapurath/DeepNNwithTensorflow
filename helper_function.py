@@ -187,7 +187,6 @@ def plot_loss_curves(history):
 def compare_historys(original_history, new_history, initial_epochs=5):
     """
     Compares two TensorFlow model History objects.
-    
     Args:
       original_history: History object from original model (before new_history)
       new_history: History object from continued model training (after original_history)
@@ -234,7 +233,6 @@ import zipfile
 def unzip_data(filename):
   """
   Unzips filename into the current working directory.
-
   Args:
     filename (str): a filepath to a target zip folder to be unzipped.
   """
@@ -249,7 +247,6 @@ import os
 def walk_through_dir(dir_path):
   """
   Walks through dir_path returning its contents.
-
   Args:
     dir_path (str): target directory
   
